@@ -1,0 +1,24 @@
+{
+  "name": "mini-svelte-components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Svelte 组件的最简单实现，甚至没有 CSS 样式，适合 Svelte 初学者",
+  "keywords": [
+    "svelte",
+    "components",
+    "learning",
+    "beginner",
+    "教学"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "svelte": "^5.34.7",
+    "vite": "^7.0.0"
+  }
+}
