@@ -2,9 +2,9 @@
   import { onDestroy } from 'svelte';
   
   const images = [
-    "/react.svg",
-    "/svelte.svg", 
-    "/vuedotjs.svg"
+    import.meta.env.BASE_URL + "react.svg",
+    import.meta.env.BASE_URL + "svelte.svg", 
+    import.meta.env.BASE_URL + "vuedotjs.svg"
   ];
   
   let index = 0;
